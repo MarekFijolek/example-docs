@@ -8,6 +8,6 @@
 * list examples in master README.adoc
 
 * asciidoctor-extension-example (custom extension drawn from project)
+//end::TODO[]
 * asciidoclet-example
 * kitchensink-example?
-//end::TODO[]

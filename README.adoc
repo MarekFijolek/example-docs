@@ -8,11 +8,11 @@ This repository contains a collection of sample projects that demonstrate numero
 //tag::getting_examples[]
 == Getting the examples
 
-Clone the example repository using git:
+Clone the example repository using git (you need to have git installed):
 
  $ git clone https://github.com/asciidoctor/asciidoctor-maven-examples
 
-Refer to the README file in each individual project to learn how to run it.
+Refer to the README file in each individual project for learning how to run it. If there's no README file present, refer to the file from a directory above.
 //end::getting_examples[]
 
 == Example catalog
