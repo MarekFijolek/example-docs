@@ -1,0 +1,48 @@
+﻿= Example Manual
+Doc Writer <doc.writer@example.org>
+v1.0, 2014-09-09
+:example-caption!:
+ifndef::imagesdir[:imagesdir: images]
+
+//tag::introduction[]
+== Introduction
+
+This project does something.
+We just haven't decided what that is yet.
+
+Check the <<Attributes>> section.
+//end::introduction[]
+
+//tag::images_handling[]
+== Images
+
+.This is an image caption
+image::sunset.jpg[scaledwidth=75%]
+//end::images_handling[]
+
+== Build
+
+This page was built by the following command:
+
+ $ mvn
+
+//tag::attributes[]
+=== Attributes
+
+.Built-in
+asciidoctor-version:: {asciidoctor-version}
+safe-mode-name:: {safe-mode-name}
+docdir:: {docdir}
+docfile:: {docfile}
+imagesdir:: {imagesdir}
+
+.Custom
+sourcedir:: {sourcedir}
+//end::attributes[]
+
+//tag::includes[]
+== Includes
+
+WARNING: Includes can be tricky!
+//end::includes[]
+
