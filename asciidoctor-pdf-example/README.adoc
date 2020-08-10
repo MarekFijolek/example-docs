@@ -9,5 +9,5 @@ Convert the AsciiDoc to PDF using Asciidoctor PDF by invoking the `process-resou
 
  $ mvn
 
-Open the file _target/generated-docs/example-manual.pdf_ in your PDF viewer to see the generated PDF.
+Open the file _target/generated-docs/example-manual.pdf_ in your PDF viewer to see the generated PDF. You need to have the PDF viewer installed first.
 //end::usage[]
