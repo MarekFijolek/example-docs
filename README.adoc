@@ -5,6 +5,7 @@
 This repository contains a collection of sample projects that demonstrate numerous ways to use the Asciidoctor Maven plugin in a Maven project.
 //end::introduction[]
 
+//tag::getting_examples[]
 == Getting the examples
 
 Clone the example repository using git:
@@ -12,6 +13,7 @@ Clone the example repository using git:
  $ git clone https://github.com/asciidoctor/asciidoctor-maven-examples
 
 Refer to the README file in each individual project to learn how to run it.
+//end::getting_examples[]
 
 == Example catalog
 

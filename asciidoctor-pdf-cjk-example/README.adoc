@@ -2,8 +2,11 @@
 :cn-example-file: README-zh_CN
 :jp-example-file: README-jp
 
+//tag::demo[]
 An example project that demonstrates how to convert AsciiDoc to PDF using https://github.com/chloerei/asciidoctor-pdf-cjk[asciidoctor-pdf-cjk] and https://github.com/chloerei/asciidoctor-pdf-cjk-kai_gen_gothic[asciidoctor-pdf-cjk-kai_gen_gothic] resources to properly show CJK (Chinese, Japanese and Korean) characters.
+//end::demo[]
 
+//tag::usage[]
 == Usage
 
 [IMPORTANT]
@@ -20,5 +23,6 @@ Convert the AsciiDoc to PDF using Asciidoctor PDF by invoking the `process-resou
  $ mvn
 
 Open the generated files _target/generated-docs/{cn-example-file}.pdf_ and _target/generated-docs/{jp-example-file}.pdf_ in your PDF viewer to see the generated PDFs.
+//end::usage[]
 
 The examples used are the Chinese and Japanese translations of the Asciidoctor README document (all found link:https://github.com/asciidoctor/asciidoctor/[here]). Contributed respectively by link:https://github.com/diguage[diguage] and link:https://github.com/Mizuho32[Mizuho32].
